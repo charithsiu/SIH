@@ -1,0 +1,627 @@
+ <header class="header">
+                <!-- Desktop Header -->
+
+                <!-- Mobile Header-->
+                <div class="mobile-header visible-xs visible-sm">
+                    <div class="top-mobile-container row">
+                        <div class="mLogo col-sm-6 col-xs-6">
+                            <a id="dnn_ucHeader_LOGO1_hypLogo" title="MoBap Baby" href="http://www.mobapbaby.org/"><img
+                                    id="dnn_ucHeader_LOGO1_imgLogo"
+                                    src="./Birth Plan Checklist for Labor &amp; Delivery at Missouri Baptist Medical Center_files/logo.png"
+                                    alt="MoBap Baby" style="border-width:0px;"></a>
+                        </div>
+                        <div class="mtop col-sm-6 col-xs-6">
+                            <div class="top-icon-wrapper">
+                                <a href="javascript:void(0)" class="m-toggle m-navicon"
+                                    data-toggle=".m-nav-wrapper"></a>
+                                <div class="separator"></div>
+                                <a href="javascript:void(0)" class="m-toggle m-search-ico"
+                                    data-toggle=".m-search-wrapper"></a>
+                                <div class="separator"></div>
+                                <div class="phone"><a href="tel:3149965751">314-996-5751</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-search-wrapper">
+                        <div class="search">
+                            <div class="input-group">
+
+
+                                <div id="dnn_ucHeader_mobileSearch_DropDownSearch" class="SearchContainer">
+                                    <div class="SearchBorder">
+                                        <div id="SearchIcon" class="SearchIcon">
+                                            <img id="dnn_ucHeader_mobileSearch_downArrow"
+                                                src="./Birth Plan Checklist for Labor &amp; Delivery at Missouri Baptist Medical Center_files/Action_16X16_Standard.png">
+                                        </div>
+                                        <span class="searchInputContainer" data-moreresults="See More Results"
+                                            data-noresult="No Results Found">
+                                            <input name="dnn$ucHeader$mobileSearch$txtSearchNew" type="text"
+                                                maxlength="255" id="dnn_ucHeader_mobileSearch_txtSearchNew"
+                                                class="SearchTextBox" autocomplete="off" placeholder="Search...">
+                                            <a class="dnnSearchBoxClearText" title="Clear search text"></a>
+                                        </span>
+
+                                        <ul id="SearchChoices">
+                                            <li id="SearchIconSite">Site</li>
+                                            <li id="SearchIconWeb">Web</li>
+                                        </ul>
+                                    </div>
+                                    <a id="dnn_ucHeader_mobileSearch_cmdSearchNew" class="SkinObject SearchButton"
+                                        href="javascript:__doPostBack(&#39;dnn$ucHeader$mobileSearch$cmdSearchNew&#39;,&#39;&#39;)">Go</a>
+                                </div>
+                                <script type="text/javascript">
+                                    $(function () {
+                                        if (typeof dnn != "undefined" && typeof dnn.searchSkinObject != "undefined") {
+                                            var searchSkinObject = new dnn.searchSkinObject({
+                                                delayTriggerAutoSearch: 400,
+                                                minCharRequiredTriggerAutoSearch: 2,
+                                                searchType: '',
+                                                enableWildSearch: true,
+                                                cultureCode: 'en-US',
+                                                portalId: -1
+                                            }
+                                            );
+                                            searchSkinObject.init();
+
+
+
+                                            // attach dropdown search
+                                            if (typeof dnn.initDropdownSearch != 'undefined') {
+                                                dnn.initDropdownSearch(searchSkinObject);
+                                            }
+
+
+                                        }
+                                    });
+                                </script>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-nav-wrapper">
+                        <div id="standardMenu">
+                            <ul class="rootMenu">
+                                <li class="item first haschild child-1" aria-haspopup="true" role="menuitem"><a
+                                        href="http://www.mobapbaby.org/About-MoBap-Baby"><span>About MoBap Baby<i
+                                                class="navarrow"></i></span></a>
+                                    <ul class="level0 subMenu">
+                                        <li class="item first child-1" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/About-MoBap-Baby/Why-MoBap"><span>Why
+                                                    MoBap?</span></a></li>
+                                        <li class="item child-2" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/About-MoBap-Baby/Our-5-Points-of-Difference"><span>Our
+                                                    5 Points of Difference</span></a></li>
+                                        <li class="item child-3" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Stories"><span>Testimonials</span></a>
+                                        </li>
+                                        <li class="item child-4" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/About-MoBap-Baby/Facility-Photos"><span>Facility
+                                                    Photos</span></a></li>
+                                        <li class="item haschild child-5" aria-haspopup="true" role="menuitem"><a
+                                                href="http://www.mobapbaby.org/About-MoBap-Baby/NICU"><span>NICU<i
+                                                        class="subarrow" data-toggle="level1"></i></span></a>
+                                            <ul class="level1 subMenu">
+                                                <li class="item first last child-1" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/About-MoBap-Baby/NICU/NICU-Staff"><span>NICU
+                                                            Staff</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="item child-6" aria-haspopup="false" role="menu"><a
+                                                href="http://www.missouribaptist.org/Home/EmergencyRoom/ChildrensER.aspx"><span>Children's
+                                                    ER at MoBap</span></a></li>
+                                        <li class="item child-7" aria-haspopup="false" role="menu"><a
+                                                href="https://doctors.bjc.org/wlp2/missouribaptist/doctors/search/_/1/$Specialty=OB/Obstetrics"><span>Find
+                                                    a Physician</span></a></li>
+                                        <li class="item child-8" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/About-MoBap-Baby/MoBap-Baby-Mobile-Apps"><span>MoBap
+                                                    Baby Mobile Apps</span></a></li>
+                                        <li class="item last child-9" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/About-MoBap-Baby/Birth-Newborn-Photography"><span>Birth
+                                                    and Newborn Photography</span></a></li>
+                                    </ul>
+                                </li>
+                                <li class="item haschild child-2" aria-haspopup="true" role="menuitem"><a
+                                        href="http://www.mobapbaby.org/Pregnancy-Guide"><span>Pregnancy Guide<i
+                                                class="navarrow"></i></span></a>
+                                    <ul class="level0 subMenu">
+                                        <li class="item first haschild child-1" aria-haspopup="true" role="menuitem"><a
+                                                href="http://www.mobapbaby.org/Pregnancy-Guide/Preparing-for-Pregnancy"><span>Preparing
+                                                    for Pregnancy<i class="subarrow"
+                                                        data-toggle="level1"></i></span></a>
+                                            <ul class="level1 subMenu">
+                                                <li class="item first child-1" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Preparing-for-Pregnancy/Finding-the-Best-OB-GYN"><span>Finding
+                                                            the Best OB/GYN</span></a></li>
+                                                <li class="item child-2" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Preparing-for-Pregnancy/Genetic-Counseling"><span>Genetic
+                                                            Counseling</span></a></li>
+                                                <li class="item child-3" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Preparing-for-Pregnancy/Nutrition-Before-Pregnancy"><span>Nutrition
+                                                            Before Pregnancy</span></a></li>
+                                                <li class="item child-4" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Preparing-for-Pregnancy/Folic-Acid"><span>Folic
+                                                            Acid</span></a></li>
+                                                <li class="item last child-5" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Preparing-for-Pregnancy/Pregnancy-Over-Age-30"><span>Pregnancy
+                                                            Over Age 30</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="item haschild child-2" aria-haspopup="true" role="menuitem"><a
+                                                href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Signs-Symptoms"><span>Pregnancy
+                                                    Signs Symptoms<i class="subarrow"
+                                                        data-toggle="level1"></i></span></a>
+                                            <ul class="level1 subMenu">
+                                                <li class="item first last haschild child-1" aria-haspopup="true"
+                                                    role="menuitem"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Signs-Symptoms/Pregnancy-Discomforts"><span>Pregnancy
+                                                            Discomforts<i class="subarrow"
+                                                                data-toggle="level2"></i></span></a>
+                                                    <ul class="level2 subMenu">
+                                                        <li class="item first child-1" aria-haspopup="false"
+                                                            role="menu"><a
+                                                                href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Signs-Symptoms/Pregnancy-Discomforts/Headaches"><span>Headaches</span></a>
+                                                        </li>
+                                                        <li class="item child-2" aria-haspopup="false" role="menu"><a
+                                                                href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Signs-Symptoms/Pregnancy-Discomforts/Pregnancy-Skin-Changes"><span>Pregnancy
+                                                                    Skin Changes</span></a></li>
+                                                        <li class="item child-3" aria-haspopup="false" role="menu"><a
+                                                                href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Signs-Symptoms/Pregnancy-Discomforts/Pregnancy-Posture"><span>Pregnancy
+                                                                    &amp; Posture</span></a></li>
+                                                        <li class="item child-4" aria-haspopup="false" role="menu"><a
+                                                                href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Signs-Symptoms/Pregnancy-Discomforts/Hemorrhoids-Varicose-Veins"><span>Hemorrhoids
+                                                                    Varicose Veins</span></a></li>
+                                                        <li class="item child-5" aria-haspopup="false" role="menu"><a
+                                                                href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Signs-Symptoms/Pregnancy-Discomforts/Heartburn"><span>Heartburn</span></a>
+                                                        </li>
+                                                        <li class="item last child-6" aria-haspopup="false" role="menu">
+                                                            <a
+                                                                href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Signs-Symptoms/Pregnancy-Discomforts/Weight-Gain"><span>Weight
+                                                                    Gain</span></a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="item haschild child-3" aria-haspopup="true" role="menuitem"><a
+                                                href="http://www.mobapbaby.org/Pregnancy-Guide/Ensuring-a-Healthy-Pregnancy"><span>Ensuring
+                                                    a Healthy Pregnancy<i class="subarrow"
+                                                        data-toggle="level1"></i></span></a>
+                                            <ul class="level1 subMenu">
+                                                <li class="item first haschild child-1" aria-haspopup="true"
+                                                    role="menuitem"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Ensuring-a-Healthy-Pregnancy/Nutrition"><span>Nutrition<i
+                                                                class="subarrow" data-toggle="level2"></i></span></a>
+                                                    <ul class="level2 subMenu">
+                                                        <li class="item first last child-1" aria-haspopup="false"
+                                                            role="menu"><a
+                                                                href="http://www.mobapbaby.org/Pregnancy-Guide/Ensuring-a-Healthy-Pregnancy/Nutrition/Eat-Right"><span>Eat
+                                                                    Right</span></a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item child-2" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Ensuring-a-Healthy-Pregnancy/Exercise"><span>Exercise</span></a>
+                                                </li>
+                                                <li class="item child-3" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Ensuring-a-Healthy-Pregnancy/Sex-During-Pregnancy"><span>Sex
+                                                            During Pregnancy</span></a></li>
+                                                <li class="item child-4" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Ensuring-a-Healthy-Pregnancy/Medications-Pregnancy"><span>Medications
+                                                            &amp; Pregnancy</span></a></li>
+                                                <li class="item child-5" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Ensuring-a-Healthy-Pregnancy/Smoking-Pregnancy"><span>Smoking
+                                                            &amp; Pregnancy</span></a></li>
+                                                <li class="item child-6" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Ensuring-a-Healthy-Pregnancy/Alcohol-Pregnancy"><span>Alcohol
+                                                            &amp; Pregnancy</span></a></li>
+                                                <li class="item child-7" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Ensuring-a-Healthy-Pregnancy/Traveling-while-Pregnant"><span>Traveling
+                                                            while Pregnant</span></a></li>
+                                                <li class="item child-8" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Ensuring-a-Healthy-Pregnancy/Work-Pregnancy"><span>Work
+                                                            &amp; Pregnancy</span></a></li>
+                                                <li class="item child-9" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Ensuring-a-Healthy-Pregnancy/Parents-to-Be-Must-Communicate"><span>Parents-to-Be
+                                                            Must Communicate</span></a></li>
+                                                <li class="item child-10" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Ensuring-a-Healthy-Pregnancy/Illegal-Drug-Use-Pregnancy"><span>Illegal
+                                                            Drug Use &amp; Pregnancy</span></a></li>
+                                                <li class="item last child-11" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Ensuring-a-Healthy-Pregnancy/Diseases-from-Your-Pets"><span>Handling
+                                                            Pets while Pregnant</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="item haschild child-4" aria-haspopup="true" role="menuitem"><a
+                                                href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Tests-Procedures"><span>Pregnancy
+                                                    Tests &amp; Procedures<i class="subarrow"
+                                                        data-toggle="level1"></i></span></a>
+                                            <ul class="level1 subMenu">
+                                                <li class="item first child-1" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Tests-Procedures/First-Trimester-Screening"><span>First
+                                                            Trimester Screening</span></a></li>
+                                                <li class="item child-2" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Tests-Procedures/Second-Trimester-Screening"><span>Second
+                                                            Trimester Screening</span></a></li>
+                                                <li class="item child-3" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Tests-Procedures/Fetal-Ultrasound"><span>Fetal
+                                                            Ultrasound</span></a></li>
+                                                <li class="item child-4" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Tests-Procedures/Amniocentesis"><span>Amniocentesis</span></a>
+                                                </li>
+                                                <li class="item child-5" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Tests-Procedures/Fetal-Monitoring"><span>Fetal
+                                                            Monitoring</span></a></li>
+                                                <li class="item child-6" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Tests-Procedures/Chorionic-Villus-Sampling-CVS"><span>Chorionic
+                                                            Villus Sampling (CVS)</span></a></li>
+                                                <li class="item child-7" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Tests-Procedures/Genetic-Screenings"><span>Genetic
+                                                            Screenings</span></a></li>
+                                                <li class="item child-8" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Tests-Procedures/Glucose-Tolerance-Test"><span>Glucose
+                                                            Tolerance Test</span></a></li>
+                                                <li class="item child-9" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Tests-Procedures/Alpha-fetoprotein-AFP"><span>Alpha-fetoprotein
+                                                            (AFP)</span></a></li>
+                                                <li class="item child-10" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Tests-Procedures/Fetal-Blood-Sampling"><span>Fetal
+                                                            Blood Sampling</span></a></li>
+                                                <li class="item child-11" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Tests-Procedures/Fetal-Movement-Counting"><span>Fetal
+                                                            Movement Counting</span></a></li>
+                                                <li class="item child-12" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Tests-Procedures/Nonstress-Testing"><span>Nonstress
+                                                            Testing</span></a></li>
+                                                <li class="item child-13" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Tests-Procedures/Biophysical-Profile-BPP"><span>Biophysical
+                                                            Profile (BPP)</span></a></li>
+                                                <li class="item last child-14" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Tests-Procedures/Doppler-Flow-Studies"><span>Doppler
+                                                            Flow Studies</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="item haschild child-5" aria-haspopup="true" role="menuitem"><a
+                                                href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Complications"><span>Pregnancy
+                                                    Complications<i class="subarrow"
+                                                        data-toggle="level1"></i></span></a>
+                                            <ul class="level1 subMenu">
+                                                <li class="item first child-1" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Complications/Miscarriage"><span>Miscarriage</span></a>
+                                                </li>
+                                                <li class="item last child-2" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-Complications/Gestational-Diabetes"><span>Gestational
+                                                            Diabetes</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="item haschild child-6" aria-haspopup="true" role="menuitem"><a
+                                                href="http://www.mobapbaby.org/Pregnancy-Guide/High-Risk-Pregnancy"><span>High
+                                                    Risk Pregnancy<i class="subarrow"
+                                                        data-toggle="level1"></i></span></a>
+                                            <ul class="level1 subMenu">
+                                                <li class="item first child-1" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/High-Risk-Pregnancy/Specialized-Care-for-Multiples"><span>Specialized
+                                                            Care for Multiples</span></a></li>
+                                                <li class="item last child-2" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Pregnancy-Guide/Preparing-for-Pregnancy/Genetic-Counseling"><span>Genetic
+                                                            Counseling</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="item child-7" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Pregnancy-Guide/Pregnancy-FAQs"><span>Pregnancy
+                                                    FAQs</span></a></li>
+                                        <li class="item last child-8" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Pregnancy-Guide/Tips-for-Expectant-Dads"><span>Tips
+                                                    for Expectant Dads</span></a></li>
+                                    </ul>
+                                </li>
+                                <li class="item haschild child-3" aria-haspopup="true" role="menuitem"><a
+                                        href="http://www.mobapbaby.org/Labor-Delivery"><span>Labor &amp; Delivery<i
+                                                class="navarrow"></i></span></a>
+                                    <ul class="level0 subMenu">
+                                        <li class="item first child-1" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Labor-Delivery/Pre-Register-Your-Babys-Birth"><span>Pre-Register
+                                                    Your Baby's Birth</span></a></li>
+                                        <li class="item child-2" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Labor-Delivery/Hospital-Bag-Checklist"><span>Hospital
+                                                    Bag Checklist</span></a></li>
+                                        <li class="item haschild child-3" aria-haspopup="true" role="menuitem"><a
+                                                href="http://www.mobapbaby.org/Labor-Delivery/Types-of-Birth"><span>Types
+                                                    of Birth<i class="subarrow" data-toggle="level1"></i></span></a>
+                                            <ul class="level1 subMenu">
+                                                <li class="item first child-1" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Labor-Delivery/Types-of-Birth/Vaginal-Birth"><span>Vaginal
+                                                            Birth</span></a></li>
+                                                <li class="item child-2" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Labor-Delivery/Types-of-Birth/Scheduled-Cesarean"><span>Scheduled
+                                                            Cesarean</span></a></li>
+                                                <li class="item last child-3" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Labor-Delivery/Types-of-Birth/Unplanned-Cesarean"><span>Unplanned
+                                                            Cesarean</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="item haschild child-4" aria-haspopup="true" role="menuitem"><a
+                                                href="http://www.mobapbaby.org/Labor-Delivery/My-Birth-Options"><span>My
+                                                    Birth Options<i class="subarrow"
+                                                        data-toggle="level1"></i></span></a>
+                                            <ul class="level1 subMenu">
+                                                <li class="item first child-1" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Labor-Delivery/My-Birth-Options/Natural-Childbirth"><span>Natural
+                                                            Childbirth</span></a></li>
+                                                <li class="item child-2" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Labor-Delivery/My-Birth-Options/Vaginal-Birth-After-Cesarean-VBAC"><span>Vaginal
+                                                            Birth After Cesarean (VBAC)</span></a></li>
+                                                <li class="item child-3" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Labor-Delivery/My-Birth-Options/Scheduled-Induction"><span>Scheduled
+                                                            Induction</span></a></li>
+                                                <li class="item child-4" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Labor-Delivery/My-Birth-Options/Hydrotherapy-for-Labor"><span>Hydrotherapy
+                                                            for Labor</span></a></li>
+                                                <li class="item child-5" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Labor-Delivery/My-Birth-Options/Birth-Ball"><span>Birth
+                                                            Ball</span></a></li>
+                                                <li class="item child-6" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Labor-Delivery/My-Birth-Options/Mobile-Fetal-Heart-Monitoring"><span>Mobile
+                                                            Fetal Heart Monitoring</span></a></li>
+                                                <li class="item last child-7" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/About-MoBap-Baby/Birth-Newborn-Photography"><span>Birth
+                                                            Stories Photography</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="item selected child-5" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Labor-Delivery/My-Birth-Plan"><span>My
+                                                    Birth Plan</span></a></li>
+                                        <li class="item last child-6" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/About-MoBap-Baby/MoBap-Baby-Mobile-Apps"><span>MoBap
+                                                    Delivery Planner App</span></a></li>
+                                    </ul>
+                                </li>
+                                <li class="item haschild child-4" aria-haspopup="true" role="menuitem"><a
+                                        href="http://www.mobapbaby.org/New-Parent-Guide"><span>New Parent Guide<i
+                                                class="navarrow"></i></span></a>
+                                    <ul class="level0 subMenu">
+                                        <li class="item first child-1" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/New-Parent-Guide/Finding-a-Pediatrician"><span>Finding
+                                                    a Pediatrician</span></a></li>
+                                        <li class="item child-2" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/New-Parent-Guide/Newborn-Screenings"><span>Newborn
+                                                    Screenings</span></a></li>
+                                        <li class="item child-3" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/About-MoBap-Baby/NICU"><span>NICU</span></a>
+                                        </li>
+                                        <li class="item haschild child-4" aria-haspopup="true" role="menuitem"><a
+                                                href="http://www.mobapbaby.org/New-Parent-Guide/Bringing-Home-Baby"><span>Bringing
+                                                    Home Baby<i class="subarrow" data-toggle="level1"></i></span></a>
+                                            <ul class="level1 subMenu">
+                                                <li class="item first child-1" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/New-Parent-Guide/Bringing-Home-Baby/Baby-Checklist"><span>Baby
+                                                            Checklist</span></a></li>
+                                                <li class="item child-2" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/New-Parent-Guide/Bringing-Home-Baby/Car-Seat-Safety"><span>Car
+                                                            Seat Safety</span></a></li>
+                                                <li class="item last child-3" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/New-Parent-Guide/Bringing-Home-Baby/What-to-Pack-in-a-Diaper-Bag"><span>What
+                                                            to Pack in a Diaper Bag</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="item haschild child-5" aria-haspopup="true" role="menuitem"><a
+                                                href="http://www.mobapbaby.org/New-Parent-Guide/Newborn-Care-The-First-6-Weeks"><span>Newborn
+                                                    Care The First 6 Weeks<i class="subarrow"
+                                                        data-toggle="level1"></i></span></a>
+                                            <ul class="level1 subMenu">
+                                                <li class="item first child-1" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/New-Parent-Guide/Newborn-Care-The-First-6-Weeks/Bathing-Your-Newborn"><span>Bathing
+                                                            Your Newborn</span></a></li>
+                                                <li class="item child-2" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/New-Parent-Guide/Newborn-Care-The-First-6-Weeks/Umbilical-Cord-Care"><span>Umbilical
+                                                            Cord Care</span></a></li>
+                                                <li class="item child-3" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/New-Parent-Guide/Newborn-Care-The-First-6-Weeks/Circumcision-Uncircumcised-Care"><span>Circumcision/Uncircumcised
+                                                            Care</span></a></li>
+                                                <li class="item child-4" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/New-Parent-Guide/Newborn-Care-The-First-6-Weeks/Diapering-Diaper-Rash"><span>Diapering
+                                                            &amp; Diaper Rash</span></a></li>
+                                                <li class="item child-5" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/New-Parent-Guide/Newborn-Care-The-First-6-Weeks/Baby-Acne"><span>Baby
+                                                            Acne</span></a></li>
+                                                <li class="item child-6" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/New-Parent-Guide/Newborn-Care-The-First-6-Weeks/Newborn-Sleeping"><span>Newborn
+                                                            Sleeping</span></a></li>
+                                                <li class="item child-7" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/New-Parent-Guide/Newborn-Care-The-First-6-Weeks/Newborn-Crying"><span>Newborn
+                                                            Crying</span></a></li>
+                                                <li class="item child-8" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/New-Parent-Guide/Newborn-Care-The-First-6-Weeks/Colic"><span>Colic</span></a>
+                                                </li>
+                                                <li class="item child-9" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/New-Parent-Guide/Newborn-Care-The-First-6-Weeks/Fever-in-a-Newborn"><span>Fever
+                                                            in a Newborn</span></a></li>
+                                                <li class="item child-10" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/New-Parent-Guide/Newborn-Care-The-First-6-Weeks/Behavior-Changes"><span>Behavior
+                                                            Changes</span></a></li>
+                                                <li class="item child-11" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/New-Parent-Guide/Newborn-Care-The-First-6-Weeks/Skin-Color-Changes"><span>Skin
+                                                            Color Changes</span></a></li>
+                                                <li class="item child-12" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/New-Parent-Guide/Newborn-Care-The-First-6-Weeks/Breathing-Problems"><span>Breathing
+                                                            Problems</span></a></li>
+                                                <li class="item child-13" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/New-Parent-Guide/Newborn-Care-The-First-6-Weeks/Gastrointestinal-Problems"><span>Gastrointestinal
+                                                            Problems</span></a></li>
+                                                <li class="item last child-14" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/New-Parent-Guide/Newborn-Care-The-First-6-Weeks/When-To-Call-Your-Doctor"><span>When
+                                                            To Call Your Doctor</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="item child-6" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/New-Parent-Guide/Newborn-FAQs"><span>Newborn
+                                                    FAQs</span></a></li>
+                                        <li class="item last child-7" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/New-Parent-Guide/St-Louis-Childrens-Hospital-Pediatrics"><span>St.
+                                                    Louis Children's Hospital Pediatrics</span></a></li>
+                                    </ul>
+                                </li>
+                                <li class="item haschild child-5" aria-haspopup="true" role="menuitem"><a
+                                        href="http://www.mobapbaby.org/Breastfeeding-Resources"><span>Breastfeeding
+                                            Resources<i class="navarrow"></i></span></a>
+                                    <ul class="level0 subMenu">
+                                        <li class="item first child-1" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Breastfeeding-Resources/Our-Certified-Lactation-Consultants"><span>Our
+                                                    Certified Lactation Consultants</span></a></li>
+                                        <li class="item child-2" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Breastfeeding-Resources/Benefits-of-Breastfeeding"><span>Benefits
+                                                    of Breastfeeding</span></a></li>
+                                        <li class="item child-3" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Breastfeeding-Resources/Breast-Milk-is-the-Best-Milk"><span>Breast
+                                                    Milk is the Best Milk</span></a></li>
+                                        <li class="item child-4" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Breastfeeding-Resources/Effective-Breastfeeding"><span>Effective
+                                                    Breastfeeding</span></a></li>
+                                        <li class="item child-5" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Breastfeeding-Resources/Effective-Sucking"><span>Effective
+                                                    Sucking</span></a></li>
+                                        <li class="item child-6" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Breastfeeding-Resources/Breastfeeding-Getting-Started"><span>Breastfeeding:
+                                                    Getting Started</span></a></li>
+                                        <li class="item child-7" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Breastfeeding-Resources/How-Milk-is-Made"><span>How
+                                                    Milk is Made</span></a></li>
+                                        <li class="item child-8" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Breastfeeding-Resources/Breastfeeding-Difficulties-for-Mom"><span>Breastfeeding
+                                                    Difficulties for Mom</span></a></li>
+                                        <li class="item child-9" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Breastfeeding-Resources/Breastfeeding-Difficulties-for-Infants"><span>Breastfeeding
+                                                    Difficulties for Infants</span></a></li>
+                                        <li class="item child-10" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Breastfeeding-Resources/Going-Back-to-Work"><span>Going
+                                                    Back to Work</span></a></li>
+                                        <li class="item child-11" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Breastfeeding-Resources/Pumping-Storing-Breast-Milk"><span>Pumping
+                                                    &amp; Storing Breast Milk</span></a></li>
+                                        <li class="item child-12" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Breastfeeding-Resources/Breastfeeding-Your-High-Risk-Newborn"><span>Breastfeeding
+                                                    Your High-Risk Newborn</span></a></li>
+                                        <li class="item child-13" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/About-MoBap-Baby/MoBap-Baby-Mobile-Apps"><span>MoBap
+                                                    Baby Feeding Log App</span></a></li>
+                                        <li class="item last child-14" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/NewbornFeedingClinic"><span>Newborn
+                                                    Feeding Clinic</span></a></li>
+                                    </ul>
+                                </li>
+                                <li class="item haschild child-6" aria-haspopup="true" role="menuitem"><a
+                                        href="http://www.mobapbaby.org/Classes-Support"><span>Classes &amp; Support<i
+                                                class="navarrow"></i></span></a>
+                                    <ul class="level0 subMenu">
+                                        <li class="item first haschild child-1" aria-haspopup="true" role="menuitem"><a
+                                                href="http://www.mobapbaby.org/Classes-Support/Childbirth-Preparation"><span>Childbirth
+                                                    Preparation<i class="subarrow" data-toggle="level1"></i></span></a>
+                                            <ul class="level1 subMenu">
+                                                <li class="item first child-1" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Classes-Support/Childbirth-Preparation/Childbirth-1-Day-Saturday-Seminar"><span>Childbirth
+                                                            1-Day Saturday Seminar</span></a></li>
+                                                <li class="item child-2" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Classes-Support/Childbirth-Preparation/Childbirth-2-Week-Saturday-Class"><span>Childbirth
+                                                            2-Week Saturday Class</span></a></li>
+                                                <li class="item child-3" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Classes-Support/Childbirth-Preparation/Childbirth-4-Week-Class-Series"><span>Childbirth
+                                                            4-Week Class Series</span></a></li>
+                                                <li class="item child-4" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Classes-Support/Childbirth-Preparation/Natural-Childbirth-Series"><span>Natural
+                                                            Childbirth Series</span></a></li>
+                                                <li class="item child-5" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Classes-Support/Childbirth-Preparation/Multiples"><span>Preparation
+                                                            for Multiples Childbirth Series</span></a></li>
+                                                <li class="item child-6" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Classes-Support/Childbirth-Preparation/Cesarean-Birth-Class"><span>Cesarean
+                                                            Birth Class</span></a></li>
+                                                <li class="item last child-7" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Classes-Support/Childbirth-Preparation/Online-Childbirth-Class"><span>Online
+                                                            Childbirth Class</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="item haschild child-2" aria-haspopup="true" role="menuitem"><a
+                                                href="http://www.mobapbaby.org/Classes-Support/Emotional-Health"><span>Emotional
+                                                    Health<i class="subarrow" data-toggle="level1"></i></span></a>
+                                            <ul class="level1 subMenu">
+                                                <li class="item first last child-1" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Classes-Support/Emotional-Health/The-Fourth-Trimester-Baby-Blues-and-Beyond"><span>The
+                                                            Fourth Trimester: Baby Blues and Beyond</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="item haschild child-3" aria-haspopup="true" role="menuitem"><a
+                                                href="http://www.mobapbaby.org/Classes-Support/Pregnancy-Health-and-Wellness"><span>Pregnancy
+                                                    Health and Wellness<i class="subarrow"
+                                                        data-toggle="level1"></i></span></a>
+                                            <ul class="level1 subMenu">
+                                                <li class="item first last child-1" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Classes-Support/Pregnancy-Health-and-Wellness/Mama-Yoga-Prenatal-Yoga-Series"><span>Mama
+                                                            Yoga, Prenatal Yoga Series</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="item haschild child-4" aria-haspopup="true" role="menuitem"><a
+                                                href="http://www.mobapbaby.org/Classes-Support/Infant-Care-Breastfeeding"><span>Infant
+                                                    Care &amp; Breastfeeding<i class="subarrow"
+                                                        data-toggle="level1"></i></span></a>
+                                            <ul class="level1 subMenu">
+                                                <li class="item first child-1" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Classes-Support/Infant-Care-Breastfeeding/Breastfeeding-Basics-Class"><span>Breastfeeding
+                                                            Basics Class</span></a></li>
+                                                <li class="item child-2" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Classes-Support/Infant-Care-Breastfeeding/CPR-for-families-and-friends"><span>CPR
+                                                            for Families and Friends</span></a></li>
+                                                <li class="item child-3" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Classes-Support/Infant-Care-Breastfeeding/Happiest-Baby-on-the-Block"><span>Happiest
+                                                            Baby on the Block</span></a></li>
+                                                <li class="item last child-4" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Classes-Support/Infant-Care-Breastfeeding/Infant-Care-Class"><span>Infant
+                                                            Care Class</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="item haschild child-5" aria-haspopup="true" role="menuitem"><a
+                                                href="http://www.mobapbaby.org/Classes-Support/Kids-Grandparents-Classes"><span>Kids
+                                                    &amp; Grandparents Classes<i class="subarrow"
+                                                        data-toggle="level1"></i></span></a>
+                                            <ul class="level1 subMenu">
+                                                <li class="item first child-1" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Classes-Support/Kids-Grandparents-Classes/Todays-Grandparents"><span>Today's
+                                                            Grandparents</span></a></li>
+                                                <li class="item last child-2" aria-haspopup="false" role="menu"><a
+                                                        href="http://www.mobapbaby.org/Classes-Support/Kids-Grandparents-Classes/Super-Siblings"><span>Super
+                                                            Siblings</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="item child-6" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Classes-Support/St-Louis-Childrens-Hospital-Classes"><span>St.
+                                                    Louis Children's Hospital Classes</span></a></li>
+                                        <li class="item child-7" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Schedule-a-Tour"><span>Tour Our
+                                                    Childbirth Center</span></a></li>
+                                        <li class="item child-8" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Classes-Support/Moms-MoBap-Morning"><span>Mom's
+                                                    MoBap Morning</span></a></li>
+                                        <li class="item last child-9" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Classes-Support/Breastfeeding-Support-Group"><span>Breastfeeding
+                                                    Support Group</span></a></li>
+                                    </ul>
+                                </li>
+                                <li class="item child-7"><a
+                                        href="http://www.mobapbaby.org/Schedule-a-Tour"><span>Schedule a Tour</span></a>
+                                </li>
+                                <li class="item last haschild child-8" aria-haspopup="true" role="menuitem"><a
+                                        href="http://www.mobapbaby.org/Contact-Us"><span>Contact Us<i
+                                                class="navarrow"></i></span></a>
+                                    <ul class="level0 subMenu">
+                                        <li class="item first child-1" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Contact-Us/Maps-Directions"><span>Maps
+                                                    &amp; Directions</span></a></li>
+                                        <li class="item child-2" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Contact-Us/Request-a-Brochure"><span>Request
+                                                    a Brochure</span></a></li>
+                                        <li class="item last child-3" aria-haspopup="false" role="menu"><a
+                                                href="http://www.mobapbaby.org/Contact-Us/Email-Subscription"><span>Email
+                                                    Subscription</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>

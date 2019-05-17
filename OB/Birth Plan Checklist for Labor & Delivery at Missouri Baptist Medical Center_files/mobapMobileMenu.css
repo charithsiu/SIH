@@ -1,0 +1,340 @@
+/*--------- StandardMenu style ----------*/
+.mobile-header .m-nav-wrapper {
+    display: none;
+}
+
+#standardMenu {
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+
+    #standardMenu ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    /* Root */
+    #standardMenu .rootMenu {
+        float: none;
+        border: none;
+    }
+
+        #standardMenu .rootMenu > li {
+            list-style: none;
+            width: 100%;
+            float: none;
+            margin: 0;
+            text-align: left;
+            background: none;
+            position: relative;
+        }
+
+            #standardMenu .rootMenu > li > a {
+                display: block;
+                position: relative;
+                float: none;
+                cursor: pointer;
+                text-decoration: none;
+                background: #ffffff;
+                color: #ffffff;
+                margin: 0;
+            }
+
+            #standardMenu .rootMenu > li.child-1 > a {
+                background: #a1cb7c;
+            }
+
+            #standardMenu .rootMenu > li.child-2 > a {
+                background: #e990bc;
+            }
+
+            #standardMenu .rootMenu > li.child-3 > a {
+                background: #6dadca;
+            }
+
+            #standardMenu .rootMenu > li.child-4 > a {
+                background: #c9d15b;
+            }
+
+            #standardMenu .rootMenu > li.child-5 > a {
+                background: #c495d0;
+            }
+
+            #standardMenu .rootMenu > li.child-6 > a {
+                background: #808285;
+            }
+
+            #standardMenu .rootMenu > li.child-7 > a {
+                background: #256aa9;
+            }
+
+            #standardMenu .rootMenu > li.child-8 > a {
+                background: #7fc0dd;
+            }
+
+            #standardMenu .rootMenu > li > a > span {
+                display: block;
+                width: auto;
+                text-align: left;
+                padding-left: 30px;
+                color: #ffffff;
+                height: 60px;
+                line-height: 60px;
+                font-size: 16px;
+            }
+
+                #standardMenu .rootMenu > li > a > span .navarrow {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 30%;
+                    height: 60px;
+                    background: url(images/m_arrow_right.png) no-repeat right 20px center transparent;
+                    /*background: url(images/m_arrow_down.png) no-repeat right 10px center transparent;*/
+                    cursor: pointer;
+                }
+
+                #standardMenu .rootMenu > li > a > span .navarrow2 {
+                    /*background: url(images/m_menu_close.png) no-repeat right 10px center transparent;*/
+                    background: url(images/m_arrow_down.png) no-repeat right 15px center transparent;
+                }
+
+    /*-- submenu --*/
+    #standardMenu .subMenu {
+        background: none;
+        left: 0;
+        position: static;
+        width: auto;
+        margin: 0;
+        border: none;
+        display: none;
+        padding: 0;
+        top: 50px;
+        z-index: 1210;
+    }
+
+        /* SubMenu Level 0*/
+        #standardMenu .subMenu.level0 {
+            padding: 0 20px;
+        }
+
+            #standardMenu .subMenu.level0 > li {
+                border-top: 1px solid #276ba8;
+                border-bottom: 1px thin #276ba8;
+            }
+
+                #standardMenu .subMenu.level0 > li:first-child {
+                    border-top: none !important;
+                }
+
+                #standardMenu .subMenu.level0 > li:last-child {
+                    border-bottom: none !important;
+                }
+
+                #standardMenu .subMenu.level0 > li a {
+                    display: block;
+                    position: relative;
+                    float: none;
+                    cursor: pointer;
+                    text-decoration: none;
+                }
+
+                #standardMenu .subMenu.level0 > li > a > span {
+                    display: block;
+                    width: auto;
+                    text-align: left;
+                    padding-left: 30px;
+                    color: #276ba8;
+                    height: 54px;
+                    line-height: 54px;
+                }
+
+
+                    #standardMenu .subMenu.level0 > li > a > span > .subarrow {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 30px;
+                        height: 54px;
+                        background: url(images/m_blue_right.png) no-repeat 10px center transparent;
+                        cursor: pointer;
+                    }
+
+                    #standardMenu .subMenu.level0 > li > a > span .subarrow2 {
+                        background: url(images/m_blue_down.png) no-repeat 8px center transparent !important;
+                    }
+
+        #standardMenu .subMenu li.opened > a > span {
+            color: #276ba8 !important;
+        }
+        /* Sub Menu Level 1-n */
+
+
+        /*#standardMenu .rootMenu > li.child-1 > .subMenu > li.item a {
+        background: none;
+        color: #a1cb7c;
+        height: auto;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        filter: Alpha(Opacity=100);
+        opacity: 1;
+    }*/
+
+        #standardMenu .subMenu.level1 > li a span {
+            display: block;
+            width: auto;
+            text-align: left;
+            padding-left: 30px;
+            color: #276ba8;
+            height: 35px;
+            line-height: 35px;
+        }
+
+        #standardMenu .subMenu.level1 {
+            padding-left: 30px;
+        }
+
+            #standardMenu .subMenu.level1 > li > a span .subarrow {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 30px;
+                height: 35px;
+                background: url(images/m_blue_right.png) no-repeat 10px center transparent;
+                cursor: pointer;
+            }
+
+            #standardMenu .subMenu.level1 > li a span .subarrow2 {
+                background: url(images/m_blue_down.png) no-repeat 8px center transparent !important;
+            }
+
+
+        #standardMenu .subMenu.level2 {
+            padding-left: 40px;
+        }
+
+        #standardMenu .subMenu.level3 {
+            padding-left: 50px;
+        }
+
+    /* Style for each root*/
+    /*Child 1*/
+    #standardMenu .rootMenu > li.child-1 .subMenu > li.item a span {
+        color: #a1cb7c;
+    }
+
+    #standardMenu .rootMenu > li.child-1 > .subMenu > li {
+        border-top: 1px solid #a1cb7c;
+        border-bottom: 1px thin #a1cb7c;
+    }
+
+    #standardMenu .rootMenu > li.child-1 .subMenu li > a > span > .subarrow {
+        background-image: url(images/m_sage_right.png);
+    }
+
+    /* Child 2 */
+    #standardMenu .rootMenu > li.child-2 .subMenu > li.item a span {
+        color: #e990bc;
+    }
+
+    #standardMenu .rootMenu > li.child-2 > .subMenu > li {
+        border-top: 1px solid #e990bc;
+        border-bottom: 1px thin #e990bc;
+    }
+
+    #standardMenu .rootMenu > li.child-2 .subMenu li > a > span > .subarrow {
+        background-image: url(images/m_rose_right.png);
+    }
+
+    /* Child 3 */
+    #standardMenu .rootMenu > li.child-3 .subMenu > li.item a span {
+        color: #6dadca;
+    }
+
+    #standardMenu .rootMenu > li.child-3 > .subMenu > li {
+        border-top: 1px solid #6dadca;
+        border-bottom: 1px thin #6dadca;
+    }
+
+    #standardMenu .rootMenu > li.child-3 .subMenu li > a > span > .subarrow {
+        background-image: url(images/m_steel_blue_right.png);
+    }
+
+    /* Child 4 */
+    #standardMenu .rootMenu > li.child-4 .subMenu > li.item a span {
+        color: #c9d15b;
+    }
+
+    #standardMenu .rootMenu > li.child-4 > .subMenu > li {
+        border-top: 1px solid #c9d15b;
+        border-bottom: 1px thin #c9d15b;
+    }
+
+    #standardMenu .rootMenu > li.child-4 .subMenu li > a > span > .subarrow {
+        background-image: url(images/m_yellow_right.png);
+    }
+
+    /* Child 5 */
+    #standardMenu .rootMenu > li.child-5 .subMenu > li.item a span {
+        color: #c495d0;
+    }
+
+    #standardMenu .rootMenu > li.child-5 > .subMenu > li {
+        border-top: 1px solid #c495d0;
+        border-bottom: 1px thin #c495d0;
+    }
+
+    #standardMenu .rootMenu > li.child-5 .subMenu li > a > span > .subarrow {
+        background-image: url(images/m_orchid_right.png);
+    }
+
+
+    /* Child 6 */
+    #standardMenu .rootMenu > li.child-6 .subMenu > li.item a span {
+        color: #808285;
+    }
+
+    #standardMenu .rootMenu > li.child-6 > .subMenu > li {
+        border-top: 1px solid #808285;
+        border-bottom: 1px thin #808285;
+    }
+
+    #standardMenu .rootMenu > li.child-6 .subMenu li > a > span > .subarrow {
+        background-image: url(images/m_charcoal_right.png);
+    }
+
+    /* Child 8 */
+    #standardMenu .rootMenu > li.child-8 .subMenu > li.item a span {
+        color: #7fc0dd;
+    }
+
+    #standardMenu .rootMenu > li.child-8 > .subMenu > li {
+        border-top: 1px solid #7fc0dd;
+        border-bottom: 1px thin #7fc0dd;
+    }
+
+    #standardMenu .rootMenu > li.child-8 .subMenu li > a > span > .subarrow {
+        background-image: url(images/m_sky_blue_right.png);
+    }
+
+    #standardMenu .subMenu.level0 li.selected > a > span {
+        color: #276ba8 !important;
+    }
+
+        #standardMenu .subMenu.level0 li.selected > a > span .subarrow {
+            background: url(images/m_blue_right.png) no-repeat 10px center transparent !important;
+        }
+
+    /*#standardMenu .subMenu.level2 > li a span {
+        color: #276ba8 !important;
+    }*/
+
+
+    #standardMenu .subMenu.level0 > li.opened .subMenu.level1
+    {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        transition: margin none 0s;
+    }

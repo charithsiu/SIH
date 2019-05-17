@@ -1,0 +1,475 @@
+﻿
+
+#birthPlan {
+    width: 100%;
+    display: block;
+    margin-top: 60px;
+    position: relative;
+}
+#birthPlan .clr {
+    clear: both;
+}
+#birthPlan  ul {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#birthPlan .mobile-only {
+    display: none;
+}
+
+
+#lstSource, #lstDestination {
+    float: left;
+    width: 47%;
+    min-height: 500px;
+}
+#lstDestination {
+    overflow: auto;
+    float: right;
+    border: solid 1px #B7C1B7;
+}
+#birthPlan .lstMiddle {
+    float: left;
+    width: 4%;
+    min-height: 500px;
+    /*background-color: #EFEFEF;
+    border: solid 1px black;*/
+            
+}
+#lstSource .categories {
+    margin-bottom: 5px; 
+}
+#birthPlan .categories .category, #birthPlan .dest-categories .category {
+    display: block;
+    padding: 5px;
+    font-size: 22px;
+    font-family: 'Rokkitt', sans-serif;
+}
+#birthPlan .categories .category {
+     color: #F5F5F5;
+    cursor: pointer;
+}
+#birthPlan .group-title {
+    font-size: 18px;
+    font-family: 'Rokkitt', sans-serif;
+    line-height: 20px;
+}
+#birthPlan .group-title i {
+    font-size: 65%;
+    font-family: sans-serif;
+}
+/*.categories .category.active {
+    color: #A0CA7B;
+}*/
+#birthPlan .categories.blue .category,
+#birthPlan .categories.blue .groups li.items {
+    background-color: #6DACC8;
+}
+#birthPlan .categories.green .category,
+#birthPlan .categories.green .groups li.items {
+    background-color: #A0CA7B;
+}
+#birthPlan .categories.pink .category,
+#birthPlan .categories.pink .groups li.items {
+    background-color: #E78FBA;
+}
+#birthPlan .categories.pale .category,
+#birthPlan .categories.pale .groups li.items {
+    background-color: #CAD059;
+}
+#birthPlan .categories.purple .category,
+#birthPlan .categories.purple .groups li.items {
+    background-color: #C296C5;
+}
+#birthPlan .categories.grey .category,
+#birthPlan .categories.grey .groups li.items {
+    background-color: #7F8284;
+}
+
+#birthPlan .categories.blue .category.active, 
+#birthPlan .categories.green .category.active,
+#birthPlan .categories.pink .category.active,
+#birthPlan .categories.pale .category.active,
+#birthPlan .categories.purple .category.active,
+#birthPlan .categories.grey .category.active {
+    background-color: white;
+    margin-bottom: 5px;
+}
+#birthPlan .categories.blue .category.active, #birthPlan .categories.blue .group-title, 
+#birthPlan .dest-categories.blue .category, #birthPlan .dest-categories.blue .group-title {
+    color: #6DACC8;
+}
+#birthPlan .categories.green .category.active, #birthPlan .categories.green .group-title, 
+#birthPlan .dest-categories.green .category, #birthPlan .dest-categories.green .group-title {
+    color: #A0CA7B;
+}
+#birthPlan .categories.pink .category.active, #birthPlan .categories.pink .group-title, 
+#birthPlan .dest-categories.pink .category, #birthPlan .dest-categories.pink .group-title {
+    color: #E78FBA;
+}
+#birthPlan .categories.pale .category.active, #birthPlan .categories.pale .group-title, 
+#birthPlan .dest-categories.pale .category, #birthPlan .dest-categories.pale .group-title {
+    color: #CAD059;
+}
+#birthPlan .categories.purple .category.active, #birthPlan .categories.purple .group-title, 
+#birthPlan .dest-categories.purple .category, #birthPlan .dest-categories.purple .group-title {
+    color: #C296C5;
+}
+#birthPlan .categories.grey .category.active, #birthPlan .categories.grey .group-title, 
+#birthPlan .dest-categories.grey .category, #birthPlan .dest-categories.grey .group-title {
+    color: #7F8284;
+}
+
+#birthPlan .categories.blue .category.active {
+    border: solid 1px #6DACC8;
+}
+#birthPlan .categories.green .category.active {
+    border: solid 1px #A0CA7B;
+}
+#birthPlan .categories.pink .category.active {
+    border: solid 1px #E78FBA;
+}
+#birthPlan .categories.pale .category.active {
+    border: solid 1px #CAD059;
+}
+#birthPlan .categories.purple .category.active {
+    border: solid 1px #C296C5;
+}
+#birthPlan .categories.grey .category.active {
+    border: solid 1px #7F8284;
+}
+
+#birthPlan .items {
+    padding: 5px;
+}
+#birthPlan .items .info {
+    display: block;
+    position: absolute;
+    left: -30px;
+    top: 2px;
+    width: 24px;
+    height: 24px;
+    background: url('../images/icon-info.jpg') no-repeat top left transparent;
+    cursor: pointer;
+}
+#birthPlan .lstSource .groups {
+    display: block;
+    background-color: #fff;
+    /*border: solid 1px #B7C1B7;*/
+}
+#birthPlan .groups li.items {            
+    border: solid 1px #B7C1B7;
+    color: white;
+    margin: 5px 0;
+    cursor: move;
+}     
+
+#birthPlan .dest-categories, #birthPlan .dest-groups {
+    display: none;
+}
+#birthPlan .dest-categories div.groups {
+    width: 100%;
+    padding: 0 5px;
+    line-height: 24px;
+    width: 95%;
+    display: none;
+}
+ #birthPlan .group-items li {
+    display: block;
+    padding: 0 5px;
+    line-height: 29px;
+}
+#birthPlan .btnRemove {
+    background-image: url('../images/m_menu_close.png');
+    background-position: left 8px;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#birthPlan .btn-blue {
+    background-color: #7FC0DB;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 15px;
+    position: absolute;
+    z-index: 100;
+}
+#birthPlan .btn-reset {
+    right: 0;
+    top: -20px;
+}
+#birthPlan .btn-email {
+    right: 24.3%;
+    bottom: -20px;
+}
+#birthPlan .btn-print {
+    right: 2.2%;
+    bottom: -20px;
+}
+
+#birthPlan .bg-tip, #birthPlan .inner {
+    position: absolute;
+}
+#birthPlan .bg-tip {
+    z-index: 1;
+    width: 47%;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 18px;
+    color: #7F8284;
+}
+#birthPlan .inner {
+    z-index: 2;
+    background-color: transparent;
+    width: 47%;
+}
+
+/*Email*/
+#email {
+    /*margin-top: 30px;*/
+}
+#email .btn-email {
+    background-color: #7FC0DB;
+    border: none;
+    color: #fff;
+    font-weight: bold;  
+    padding: 10px 15px;  
+}
+
+#email .form-control {
+    background-color: #fff;
+}
+
+#email .container-email {
+    background-color: #ebeef3;
+    padding: 30px 20px;    
+}
+#email .container-email .centered {
+    text-align: center;
+}
+#email .container-email div.title {
+    color: #6da6c1;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+#email .form-group label {
+    padding-left: 10px;
+}
+#email .checkbox label {
+    padding-left: 5px;
+}
+#email .checkbox label::before {
+    background-color: #fff;
+}
+a#btnEmailBirthPlan:hover {
+    text-decoration: none;
+}
+#lstSource .categories .category{
+    background: url('../images/m_arrow_right.png') no-repeat;
+    background-position: right 5px top 5px;    
+}
+/*#lstSource .categories .category.active{
+    background: url('../images/m_arrow_down.png') no-repeat;
+    background-position: right 5px top 12px;
+}*/
+
+.visible-desktop {
+    visibility: visible;
+    display: block;
+}
+.hidden-desktop {
+    visibility: hidden;
+    display: none;
+}
+@media (max-width: 767px) {
+    .visible-desktop {        
+        visibility: hidden;
+        display: none;
+    }
+    .hidden-desktop {
+        visibility: visible;
+        display: block;
+    }
+    #lstSource {
+        width: 100%;
+        display: block;
+    }
+    #lstDestination, .lstMiddle {
+        display: none;
+    }
+    #birthPlan .desktop-only {
+        display: none;
+    }
+    #birthPlan .mobile-only {
+        display: block;
+    }
+    #birthPlan .categories .category, #birthPlan .dest-categories .category {
+        padding: 8px;
+    }
+    #birthPlan .items, #birthPlan .categories .group-title {
+        padding: 8px;
+    }
+    /*#birthPlan .select-box {
+        float: left;
+        margin: 3px 5px 0 0 !important;
+    }*/
+    #birthPlan .items .info {
+        display: block;
+        position: relative;
+        float: right;
+        display: none;
+    }
+    #lstSource, #lstDestination {
+        min-height: 0;
+    }
+    #birthPlan .btn-blue {
+        position: relative;
+        bottom: auto;
+    }
+    #birthPlan .btn-email {
+        left: 0;
+        float: left;
+        bottom: -20px;
+    }
+    #birthPlan .btn-email.btnEmailBirthPlanMobile {
+        bottom: 0px;
+        float: none;
+    }    
+    #birthPlan .btn-print {
+        right: 0;
+        float: right;
+        bottom: -20px;
+    }
+    #birthPlan .btn-print.btnPrintBirthPlanMobile {
+        bottom: 0px;
+        float: none;
+    }
+
+
+    .mobile-button div {        
+        margin: 0 auto;
+        float: none;
+        padding-top: 20px;
+        width: 142px;
+    }
+    .mobile-button div.email {        
+        
+    }
+    .mobile-button div.pdf .btn-blue {        
+          padding: 10px 18px!important;
+    }
+    .mobile-button div.reset {
+        padding-top: 11px;
+    }
+    .mobile-button div.reset .btn-blue {        
+          padding: 10px 23px!important;
+    }
+    
+    #birthPlan .categories.blue .category.active {
+        background-color: #6DACC8;
+    }
+    #birthPlan .categories.green .category.active {
+        background-color: #A0CA7B;
+    }
+    #birthPlan .categories.pink .category.active {
+        background-color: #E78FBA;
+    }
+    #birthPlan .categories.pale .category.active {
+        background-color: #CAD059;
+    }
+    #birthPlan .categories.purple .category.active {
+        background-color: #C296C5;
+    }
+    #birthPlan .categories.grey .category.active {
+        background-color: #7F8284;
+    }
+    #birthPlan .categories.blue .category.active, 
+    #birthPlan .categories.green .category.active,
+    #birthPlan .categories.pink .category.active,
+    #birthPlan .categories.pale .category.active,
+    #birthPlan .categories.purple .category.active,
+    #birthPlan .categories.grey .category.active {
+        color: white;
+    }
+    #lstSource .categories .category{
+        background: url('../images/m_arrow_right.png') no-repeat;
+        background-position: right 8px top 8px;    
+    }
+    #lstSource .categories .category.active{
+        background: url('../images/m_arrow_down.png') no-repeat;
+        background-position: right 8px top 16px;
+    }
+
+    div#lstSource .categories .checkbox {
+        padding: 0px;
+        padding-left: 25px;
+        margin: 0px;
+    }
+    .checkbox label {
+        display: inline-block;
+        position: relative;
+        padding-left: 5px;
+    }
+
+    .checkbox label::before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        width: 20.42857px;
+        height: 20.42857px;
+        left: 0;
+        margin-left: -25px;
+        border: 1px solid #dae5e8;
+        border-radius: 0px;
+        background-color: #eaf0f2;
+        -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+        -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+        transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    }
+
+    .checkbox label::after {
+        display: inline-block;
+        position: absolute;
+        width: 19.42857px;
+        height: 19.42857px;
+        left: 0;
+        top: 0;
+        margin-left: -25px;
+        padding-left: 3px;
+        font-size: 1em;
+        color: #555555;
+    }
+    .checkbox input[type="checkbox"]:focus + label::before {
+            /*outline: thin dotted;
+            outline: 5px auto -webkit-focus-ring-color;
+            outline-offset: -2px;*/
+        }
+
+        .checkbox input[type="checkbox"]:checked + label::after {
+            font-family: "icomoon";
+            content: "\f00c";
+        }
+
+        .checkbox input[type="checkbox"]:disabled + label {
+            opacity: 0.65;
+        }
+
+            .checkbox input[type="checkbox"]:disabled + label::before {
+                background-color: #eeeeee;
+                cursor: not-allowed;
+            }
+
+    .checkbox.checkbox-circle label::before {
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    
+}

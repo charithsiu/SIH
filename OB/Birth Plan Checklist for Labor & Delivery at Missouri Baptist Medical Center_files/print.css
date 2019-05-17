@@ -1,0 +1,56 @@
+﻿body {
+    background: white;
+    font-size: 12pt;
+}
+
+.printLogo {
+    display: block;
+    width: 300px;
+    padding: 0 0 20px 40px;
+}
+
+.row1,.row2, .row3, .mobileMainNav, .row7, .row9, .row10, .row12, .row13, #topbtn, #modalContact,.breadcrumb-wrapper {
+    display: none;
+}
+
+
+.two_col_left, .leftPane, .bottomPane, .globalBannerArea {
+    display: none;
+}
+
+.breadcrumb-wrapper {
+    display: none;
+}
+
+
+.mainContent {
+    width: auto;
+    margin: 0 5%;
+    padding: 0;
+    border: 0;
+    float: none !important;
+    color: black;
+    background: transparent none;
+}
+
+
+
+a:link,
+a:visited {
+    color: #520;
+    background: transparent;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.mainContent a:link:after,
+.mainContent a:visited:after {
+    content: " (" attr(href) ") ";
+    font-size: 90%;
+}
+
+.mainContent a[href^="/"]:after {
+    content: "(http://www.altonmemorialhospital.org" attr(href) ")";
+}
+
+

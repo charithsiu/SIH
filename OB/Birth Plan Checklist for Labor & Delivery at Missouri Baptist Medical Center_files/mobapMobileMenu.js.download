@@ -1,0 +1,40 @@
+jQuery(document).ready(function ($) {
+
+    /*
+ $("#standardMenu .rootMenu > li.haschild .navarrow").click(function (event) {
+     event.preventDefault();
+     $(this).closest("li.haschild").find("> .subMenu").slideToggle("fast");
+     $(this).toggleClass("navarrow2"); return false;
+ });*/
+
+    $("#standardMenu .rootMenu > li.haschild .navarrow").click(function (event) {
+        event.preventDefault();
+
+        if ($("#standardMenu .rootMenu > li.haschild .navarrow").hasClass("navarrow2")) {
+            $("#standardMenu .rootMenu > li.haschild .navarrow").not($(this)).removeClass("navarrow2")
+        }
+        if ($("#standardMenu .rootMenu > li.haschild .navarrow").closest("li.haschild").find("> .subMenu").is(':visible')) {
+            $("#standardMenu .rootMenu > li.haschild .navarrow").not($(this)).closest("li.haschild").find("> .subMenu").slideUp();
+        }
+
+
+        $(this).closest("li.haschild").find("> .subMenu").slideToggle("fast");
+        $(this).toggleClass("navarrow2"); return false;
+    });
+
+    $("#standardMenu .subMenu .subarrow").click(function (event) {
+        event.preventDefault();
+        $(this).closest("li.haschild").toggleClass("opened");
+        $(this).closest("li.haschild").find("> .subMenu").slideToggle("fast");
+        $(this).toggleClass("subarrow2"); return false;
+    });
+
+
+
+    // For Win8 Tablet
+    $('#standardMenu .haschild li').attr("aria-haspopup", "false");
+    $('#standardMenu .haschild li').attr("role", "menu");
+    $('#standardMenu .haschild').attr("aria-haspopup", "true");
+    $('#standardMenu .haschild').attr("role", "menuitem");
+
+});

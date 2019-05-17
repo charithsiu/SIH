@@ -1,0 +1,129 @@
+.subNavLeftMenu {
+    width: 100%;
+}
+
+
+    .subNavLeftMenu ul {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .subNavLeftMenu > ul {
+        border-bottom: 1px solid #808285;
+    }
+
+        .subNavLeftMenu > ul.last-selected {
+            border-bottom: 1px solid #256aa9 !important;
+        }
+
+    .subNavLeftMenu li {
+        list-style-type: none;
+        margin-bottom: 0;
+        display: table;
+        width: 100%;
+    }
+
+        .subNavLeftMenu li a {
+            /*padding: 10px 0 10px 0;*/
+            color: #808285;
+            text-decoration: none;
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .subNavLeftMenu li.expand a {
+            color: #256aa9 !important;
+        }
+
+
+        /*.subNavLeftMenu li.selected {
+            color: #256aa9;
+        }*/
+
+        .subNavLeftMenu li.selected a {
+            color: #256aa9 !important;
+        }
+
+        .subNavLeftMenu li:hover > a {
+            color: #256aa9 !important;
+        }
+
+        .subNavLeftMenu li .expanded {
+            /*float: right;*/
+            font-weight: bold;
+            cursor: pointer;
+            width: 24px;
+            height: 24px;
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        /*Level 1*/
+        .subNavLeftMenu li.menuLevel1.expand, .subNavLeftMenu li.menuLevel1.neighbour, .subNavLeftMenu li.menuLevel1.selected {
+            border-top: 1px solid #256aa9 !important;
+            -webkit-transition: all 0.2s ease-in;
+            -moz-transition: all 0.2s ease-in;
+            -o-transition: all 0.2s ease-in;
+            transition: all 0.2s ease-in;
+        }
+
+        .subNavLeftMenu li.menuLevel1 a {
+            padding: 8px 0 8px 10px;
+        }
+
+        /*Level 2*/
+        .subNavLeftMenu li.menuLevel2 {
+            padding-left: 20px;
+        }
+
+            .subNavLeftMenu li.menuLevel2.hasChild {
+                padding-left: 20px;
+            }
+
+            .subNavLeftMenu li.menuLevel2 a {
+                /*padding-left: 20px;*/
+                padding: 4px 0 4px 0;
+            }
+
+        /*Level 3*/
+        .subNavLeftMenu li.menuLevel3 {
+            /*padding: 4px 0;*/
+        }
+
+            .subNavLeftMenu li.menuLevel3 a {
+                padding: 4px 0 4px 80px;
+                /*color: #256aa9 !important;*/
+            }
+
+
+        /*Level 4*/
+        /*
+        .subNavLeftMenu li.menuLevel4 {
+        }
+
+            .subNavLeftMenu li.menuLevel4 a {
+                padding-left: 80px;
+                padding: 4px 0;
+            }
+        */
+        .subNavLeftMenu li a:hover {
+            color: #256aa9;
+        }
+
+        .subNavLeftMenu li.menuLevel2.expand a, .subNavLeftMenu li.menuLevel3.expand a {
+            color: #256aa9;
+        }
+
+
+    /*Common background*/
+    .subNavLeftMenu .expanded.minusSign {
+        background: url('images/blue_right.png') no-repeat center center;
+    }
+
+    .subNavLeftMenu li:hover .expanded.plusSign {
+        background: url('images/blue_down.png') no-repeat center center;
+    }
+
+    .subNavLeftMenu li.selected .expanded.plusSign {
+        background: url('images/blue_down.png') no-repeat center center;
+    }

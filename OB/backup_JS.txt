@@ -1,0 +1,251 @@
+
+                                            <div style="position: relative" class="desktop-only">
+                                                <a href="https://www.mobapbaby.org/Labor-Delivery/My-Birth-Plan#"
+                                                    id="btnEmailBirthPlan" class="btn-blue btn-email btnEmailBirthPlan"
+                                                    onclick="ga(&#39;send&#39;, &#39;event&#39;, { eventCategory: &#39;Email&#39;, eventAction: &#39;Birth Plan&#39;, eventLabel: &#39;Sent&#39;});">Email
+                                                    Birth Plan</a>
+                                                <input type="submit" name="dnn$ctr748$ViewBirthPlan$btnPrintBirthPlan"
+                                                    value="Print Birth Plan"
+                                                    onclick="ga(&#39;send&#39;, &#39;event&#39;, { eventCategory: &#39;Download&#39;, eventAction: &#39;Birth Plan&#39;, eventLabel: &#39;Print&#39;});"
+                                                    id="dnn_ctr748_ViewBirthPlan_btnPrintBirthPlan"
+                                                    class="btn-blue btn-print">
+                                            </div>
+                                            <div class="mobile-only mobile-button">
+                                                <div class="email">
+                                                    <a href="https://www.mobapbaby.org/Labor-Delivery/My-Birth-Plan#"
+                                                        id="btnEmailBirthPlanMobile"
+                                                        class="btn-blue btnEmailBirthPlanMobile"
+                                                        onclick="ga(&#39;send&#39;, &#39;event&#39;, { eventCategory: &#39;Email&#39;, eventAction: &#39;Birth Plan&#39;, eventLabel: &#39;Sent&#39;});">Email
+                                                        Birth Plan</a>
+                                                </div>
+                                                <div class="pdf">
+                                                    <input type="submit"
+                                                        name="dnn$ctr748$ViewBirthPlan$btnPrintBirthPlanMobile"
+                                                        value="Print Birth Plan"
+                                                        onclick="ga(&#39;send&#39;, &#39;event&#39;, { eventCategory: &#39;Download&#39;, eventAction: &#39;Birth Plan&#39;, eventLabel: &#39;Print&#39;});"
+                                                        id="dnn_ctr748_ViewBirthPlan_btnPrintBirthPlanMobile"
+                                                        class="btn-blue btnPrintBirthPlanMobile">
+                                                </div>
+                                                <div class="reset">
+                                                    <input type="submit" name="dnn$ctr748$ViewBirthPlan$Button1"
+                                                        value="Reset Options" id="dnn_ctr748_ViewBirthPlan_Button1"
+                                                        class="btn-blue">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div style="display: none">
+                                            <textarea name="dnn$ctr748$ViewBirthPlan$txtBirthPlanIDs" rows="2" cols="20"
+                                                id="dnn_ctr748_ViewBirthPlan_txtBirthPlanIDs"
+                                                style="height:300px;width:100%;">0,6,</textarea>
+                                        </div>
+
+                                        <script type="text/javascript">
+                                            var txtBirthPlanID = '#dnn_ctr748_ViewBirthPlan_txtBirthPlanIDs';
+                                        </script>
+
+                                    </div><!-- End_Module_748 -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Left Pane -->
+                    <div class="two-col-left">
+                        <div id="dnn_LeftPane" class="leftPane">
+                            <div class="DnnModule DnnModule-CrossChildPageList DnnModule-681"><a name="681"></a>
+                                <div id="dnn_ctr681_ContentPane" class="empty">
+                                    <!-- Start_Module_681 -->
+                                    <div id="dnn_ctr681_ModuleContent" class="DNNModuleContent ModCrossChildPageListC">
+
+
+                                        <link rel="Stylesheet"
+                                            href="./Birth Plan Checklist for Labor &amp; Delivery at Missouri Baptist Medical Center_files/List_Standard.css"
+                                            type="text/css">
+                                        <link rel="Stylesheet"
+                                            href="./Birth Plan Checklist for Labor &amp; Delivery at Missouri Baptist Medical Center_files/List_Standard_Steel_Blue.css"
+                                            type="text/css">
+
+                                        <script
+                                            src="./Birth Plan Checklist for Labor &amp; Delivery at Missouri Baptist Medical Center_files/mobap_child_page_list.js.download"
+                                            type="text/javascript"></script>
+
+
+                                        <script type="text/javascript">
+                                            (function ($) {
+                                                $(function () {
+                                                    ChildPageList.init();
+                                                });
+                                            })(jQuery);
+                                        </script>
+
+
+
+
+                                    </div><!-- End_Module_681 -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+
+
+            <a class="hidden-lg hidden-md" id="topbtn" href="javascript:void(0)"><span>Back to Top</span><span
+                    class="icon-arrow-back_to_top"></span></a>
+
+            <!-- Addthis -->
+            <script
+                src="./Birth Plan Checklist for Labor &amp; Delivery at Missouri Baptist Medical Center_files/addthis_widget.js.download"></script>
+
+            <!-- Google Search -->
+            <script>
+                (function () {
+                    var cx = '016613253838287225178:v-jm_gmfiva';
+                    var gcse = document.createElement('script');
+                    gcse.type = 'text/javascript';
+                    gcse.async = true;
+                    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                        '//cse.google.com/cse.js?cx=' + cx;
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(gcse, s);
+                })();
+            </script>
+
+        </div>
+
+        <!--CDF(Css|/Portals/_default/Skins/1-Mobap/css/print.css?cdv=237)-->
+        <!--CDF(Css|/Portals/_default/Skins/1-Mobap/css/bootstrap.css?cdv=237)-->
+        <!--CDF(Css|/Portals/_default/Skins/1-Mobap/css/jquery.fancybox.css?cdv=237)-->
+        <!--CDF(Css|/Portals/_default/Skins/1-Mobap/css/all.css?cdv=237)-->
+        <!--CDF(Css|/Portals/_default/Skins/1-Mobap/css/desktop.css?cdv=237)-->
+        <!--CDF(Css|/Portals/_default/Skins/1-Mobap/css/tablet.css?cdv=237)-->
+        <!--CDF(Css|/Portals/_default/Skins/1-Mobap/css/mobile.css?cdv=237)-->
+        <!--CDF(Javascript|/Portals/_default/Skins/1-Mobap/js/bootstrap.js?cdv=237)-->
+        <!--CDF(Javascript|/Portals/_default/Skins/1-Mobap/js/jquery.fancybox.js?cdv=237)-->
+        <!--CDF(Javascript|/Portals/_default/Skins/1-Mobap/js/global.js?cdv=237)-->
+
+
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" value="700">
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off"
+            value="{&quot;__scdoff&quot;:&quot;1&quot;,&quot;sf_siteRoot&quot;:&quot;/&quot;,&quot;sf_tabId&quot;:&quot;205&quot;,&quot;SearchIconWebUrl&quot;:&quot;url(/icons/Sigma/GoogleSearch_16X16_Standard.png)&quot;,&quot;SearchIconSiteUrl&quot;:&quot;url(/icons/Sigma/DnnSearch_16X16_Standard.png)&quot;,&quot;SearchIconSelected&quot;:&quot;S&quot;}">
+        <input name="__RequestVerificationToken" type="hidden"
+            value="lAORQFAoc7UcSHRydhAkijHoHkK_PnG8Mc9LPJRP5zBztIekdqLVBK8xxF3Cxe3UgK2oOg2">
+        <script
+            src="./Birth Plan Checklist for Labor &amp; Delivery at Missouri Baptist Medical Center_files/Search.js.download"
+            type="text/javascript"></script>
+
+
+        <script type="text/javascript">
+            //<![CDATA[
+            __dnn_setScrollTop();//]]>
+        </script>
+    </form>
+    <div id="_atssh"
+        style="visibility: hidden; height: 1px; width: 1px; position: absolute; top: -9999px; z-index: 100000;"><iframe
+            id="_atssh68" title="AddThis utility frame"
+            src="./Birth Plan Checklist for Labor &amp; Delivery at Missouri Baptist Medical Center_files/sh.e4e8af4de595fdb10ec1459d.html"
+            style="height: 1px; width: 1px; position: absolute; top: 0px; z-index: 100000; border: 0px; left: 0px;"></iframe>
+    </div>
+    <style id="service-icons-0"></style>
+    <!--CDF(Javascript|/js/dnncore.js?cdv=237)-->
+    <!--CDF(Css|/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=237)-->
+    <!--CDF(Css|/Portals/_default/Containers/1-Mobap/Blue_Title.css?cdv=237)-->
+    <!--CDF(Css|/Portals/0/portal.css?cdv=237)-->
+    <!--CDF(Javascript|/js/dnn.js?cdv=237)-->
+    <!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=237)-->
+    <!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=237)-->
+    <!--CDF(Css|/Resources/Search/SearchSkinObjectPreview.css?cdv=237)-->
+    <!--CDF(Javascript|/Resources/Search/SearchSkinObjectPreview.js?cdv=237)-->
+    <!--CDF(Javascript|/js/dnn.servicesframework.js?cdv=237)-->
+    <!--CDF(Javascript|/Resources/Search/Search.js?cdv=237)-->
+    <!--CDF(Css|/Portals/_default/Skins/1-Mobap/mobap_menu/mobapMenu.css?cdv=237)-->
+    <!--CDF(Javascript|/Portals/_default/Skins/1-Mobap/mobap_menu/mobapMenu.js?cdv=237)-->
+    <!--CDF(Javascript|/Resources/Search/Search.js?cdv=237)-->
+    <!--CDF(Css|/Portals/_default/Skins/1-Mobap/mobap_mobile_menu/mobapMobileMenu.css?cdv=237)-->
+    <!--CDF(Javascript|/Portals/_default/Skins/1-Mobap/mobap_mobile_menu/mobapMobileMenu.js?cdv=237)-->
+    <!--CDF(Javascript|/Resources/libraries/jQuery/01_09_01/jquery.js?cdv=237)-->
+    <!--CDF(Javascript|/Resources/libraries/jQuery-Migrate/01_02_01/jquery-migrate.js?cdv=237)-->
+    <!--CDF(Javascript|/Resources/libraries/jQuery-UI/01_11_03/jquery-ui.js?cdv=237)-->
+
+
+
+    <!-- Code for Action: Sitewide - Missouri Baptist Medical Center -->
+    <!-- Begin Sizmek DSP Conversion Action Tracking Code Version 9 -->
+    <script type="text/javascript">
+        (function () {
+            var w = window, d = document;
+            var s = d.createElement('script');
+            s.setAttribute('async', 'true');
+            s.setAttribute('type', 'text/javascript');
+            s.setAttribute('src', '//c1.rfihub.net/js/tc.min.js');
+            var f = d.getElementsByTagName('script')[0];
+            f.parentNode.insertBefore(s, f);
+            if (typeof w['_rfi'] !== 'function') {
+                w['_rfi'] = function () {
+                    w['_rfi'].commands = w['_rfi'].commands || [];
+                    w['_rfi'].commands.push(arguments);
+                };
+            }
+            _rfi('setArgs', 'ver', '9');
+            _rfi('setArgs', 'rb', '36659');
+            _rfi('setArgs', 'ca', '20810739');
+            _rfi('setArgs', '_o', '36659');
+            _rfi('setArgs', '_t', '20810739');
+            _rfi('track');
+        })();
+    </script>
+    <noscript>
+        <iframe
+            src='//20810739p.rfihub.com/ca.html?rb=36659&ca=20810739&_o=36659&_t=20810739&ra=REPLACE_ME_WITH_YOUR_CACHE_BUSTING'
+            style='display:none;padding:0;margin:0' width='0' height='0'>
+        </iframe>
+    </noscript>
+    <!-- End Sizmek DSP Conversion Action Tracking Code Version 9 -->
+    <div style="display: none; visibility: hidden;">
+        <script>jQuery(document).ready(function () {
+                var g = /\.(txt|zip|pdf|doc|docx|rtf|tar|ppt|pptx|ppsx|xls|xlsx|xml|xsl|xslt|swf|gif|jpeg|jpg|png|bmp|tif|tiff|eps|avi|mp4|mpg|mpeg|mov|wav|wmv|flv|mp3|exe|vcf|js|dwg|igs|step|dxf)$/i, f = ""; jQuery("body").on("click", "a", function (c) {
+                    c = jQuery(this); var d = !0, b = "undefined" != typeof c.attr("href") ? c.attr("href") : "", e = b.match(document.domain.split(".").reverse()[1] + "." + document.domain.split(".").reverse()[0]); if (!b.match(/^javascript:/i) && "lbThumb" != c.parent().attr("class")) {
+                        var a =
+                            []; (a.value = 0, a.non_i = !1, b.match(/^mailto:/i)) ? (a.category = "email", a.action = "click", a.label = b.replace(/^mailto:/i, ""), a.loc = b) : b.match(g) ? (e = /[.]/.exec(b) ? /[^.]+$/.exec(b) : void 0, a.category = "download", a.action = "click-" + e[0].toLowerCase(), a.label = b.replace(/ /g, "-"), a.loc = b) : b.match(/^https?:/i) && !e ? (e = c.attr("id") ? "-" + c.attr("id") : "", a.category = "external", a.action = "click" + e, a.label = b.replace(/^https?:\/\//i, ""), a.loc = b, a.non_i = !0) : b.match(/^tel:/i) ? (a.category = "Click-To-Call", a.action = "click", a.label =
+                                b.replace(/^tel:/i, ""), a.loc = b) : b.match(/^sms:/i) ? (a.category = "Click-To-Text", a.action = "click", a.label = b.replace(/^sms:/i, ""), a.loc = b) : b.match(/\/(store|blog)/i) ? (a.category = "internal", a.action = "click", a.label = b, a.loc = b) : d = !1; if (d) return d = !0, "external" != a.category && "download" != a.category || void 0 != c.attr("target") && "_blank" == c.attr("target").toLowerCase() ? ga("send", "event", a.category, a.action, a.label.toLowerCase(), a.value, { nonInteraction: a.non_i }) : (f = a.loc, ga("send", "event", a.category, a.action, a.label.toLowerCase(),
+                                    a.value, { nonInteraction: a.non_i, hitCallback: gaHitCallbackHandler }), d = !1), d
+                    }
+                }); gaHitCallbackHandler = function () { window.location.href = f }
+            });</script>
+    </div>
+    <div style="display: none; visibility: hidden;">
+
+        <script type="text/javascript">(function () {
+                var a = window, b = document, c = b.createElement("script"); c.setAttribute("async", "true"); c.setAttribute("type", "text/javascript"); c.setAttribute("src", "//c1.rfihub.net/js/tc.min.js"); b = b.getElementsByTagName("script")[0]; b.parentNode.insertBefore(c, b); "function" !== typeof a._rfi && (a._rfi = function () { a._rfi.commands = a._rfi.commands || []; a._rfi.commands.push(arguments) }); _rfi("setArgs", "ver", "9"); _rfi("setArgs", "rb", "36659"); _rfi("setArgs", "ca", "20810739"); _rfi("setArgs", "_o", "36659"); _rfi("setArgs",
+                    "_t", "20810739"); _rfi("track")
+            })();</script>
+        <noscript></noscript>
+    </div><iframe frameborder="0" scrolling="no" style="background-color: transparent; border: 0px; display: none;"
+        src="./Birth Plan Checklist for Labor &amp; Delivery at Missouri Baptist Medical Center_files/saved_resource.html"></iframe>
+    <div id="GOOGLE_INPUT_CHEXT_FLAG" style="display: none;" input=""
+        input_stat="{&quot;tlang&quot;:true,&quot;tsbc&quot;:true,&quot;pun&quot;:true,&quot;mk&quot;:true,&quot;ss&quot;:true}">
+    </div>
+    <div id="fb-root" class=" fb_reset">
+        <div style="position: absolute; top: -10000px; width: 0px; height: 0px;">
+            <div><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true"
+                    scrolling="no" allow="encrypted-media" id="fb_xdm_frame_https" aria-hidden="true"
+                    title="Facebook Cross Domain Communication Frame" tabindex="-1"
+                    src="./Birth Plan Checklist for Labor &amp; Delivery at Missouri Baptist Medical Center_files/d_vbiawPdxB.html"
+                    style="border: none;"></iframe></div>
+            <div></div>
+        </div>
+    </div>
+</body>
+<div>
+    <div class="gr_-editor gr-iframe-first-load" style="display: none;">
+        <div class="gr_-editor_back"></div><iframe class="gr_-ifr gr-_dialog-content"
+            src="./Birth Plan Checklist for Labor &amp; Delivery at Missouri Baptist Medical Center_files/saved_resource(1).html"></iframe>
+    </div>
+</div>
+<grammarly-card>
+    <div></div>
+</grammarly-card><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i
+        class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span>

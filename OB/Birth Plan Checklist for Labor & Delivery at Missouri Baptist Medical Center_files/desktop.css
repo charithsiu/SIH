@@ -1,0 +1,16 @@
+﻿@media (min-width: 992px) {
+    /*Two Columns */
+    .two-col .two-col-left {
+        padding: 0;
+        width: 245px;
+    }
+
+    .two-col .two-col-right {
+        padding: 0;
+        width: 690px;
+    }
+
+    .breadcrumbs {
+        padding: 25px 0;
+    }
+}

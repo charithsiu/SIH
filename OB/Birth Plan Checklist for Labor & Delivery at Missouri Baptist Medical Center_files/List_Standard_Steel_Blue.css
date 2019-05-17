@@ -1,0 +1,19 @@
+.subNavLeftMenu > ul {
+    border-bottom: 1px solid #6dadca;
+}
+
+.subNavLeftMenu li.menuLevel1 {
+    border-top: 1px solid #6dadca !important;
+}
+
+.subNavLeftMenu li a {
+    color: #6dadca !important;
+}
+
+.subNavLeftMenu .expanded.plusSign {
+    background: url("images/steel_blue_down.png") no-repeat center center;
+}
+
+
+
+

@@ -1,0 +1,666 @@
+/* 
+ * Deprecated DNN CSS class names will remain available for some time
+ * before being  permanently removed. Removal will occur according to
+ * the  following process:
+ *
+ * 1. Removal will only occur with a major (x.y) release, never
+ *    with a maintenance (x.y.z) release.
+ * 2. Removal will not occur less than six months after the release
+ *    when it was deprecated.
+ * 3. Removal will not occur until after deprecation has been noted 
+ *    in at least two major releases.
+ *
+ *                                              |        |Planned |
+ *  Name                                        |Release |Removal |
+ *----------------------------------------------+--------+--------+
+ * Mod{NAME}C                                     5.6.2    6.2
+ *   {NAME} = sanitized version of the DesktopModule Name 
+ *   Used on <div> tag surrounding Module Content, inside container
+ *----------------------------------------------+--------+--------+
+ */
+
+
+
+/* PAGE BACKGROUND */
+/* background color for the header at the top of the page  */
+.HeadBg {
+}
+
+/* background color for the content part of the pages */
+Body {
+}
+
+.ControlPanel {
+}
+
+/* background/border colors for the selected tab */
+.TabBg {
+}
+
+.LeftPane {
+}
+
+.ContentPane {
+}
+
+.RightPane {
+}
+
+/* text style for the selected tab */
+.SelectedTab {
+}
+
+/* hyperlink style for the selected tab */
+A.SelectedTab:link {
+}
+
+A.SelectedTab:visited {
+}
+
+A.SelectedTab:hover {
+}
+
+A.SelectedTab:active {
+}
+
+/* text style for the unselected tabs */
+.OtherTabs {
+}
+
+/* hyperlink style for the unselected tabs */
+A.OtherTabs:link {
+}
+
+A.OtherTabs:visited {
+}
+
+A.OtherTabs:hover {
+}
+
+A.OtherTabs:active {
+}
+
+/* GENERAL */
+/* style for module titles */
+.Head {
+}
+
+/* style of item titles on edit and admin pages */
+.SubHead {
+}
+
+/* module title style used instead of Head for compact rendering by QuickLinks and Signin modules */
+.SubSubHead {
+}
+
+/* text style used for most text rendered by modules */
+.Normal {
+    font-size: 14px;
+    color: #535353;
+}
+
+/* text style used for textboxes in the admin and edit pages, for Nav compatibility */
+.NormalTextBox {
+    color: #535353;
+}
+
+.NormalRed {
+}
+
+.NormalBold {
+}
+
+/* text style for buttons and link buttons used in the portal admin pages */
+.CommandButton {
+}
+
+/* hyperlink style for buttons and link buttons used in the portal admin pages */
+A.CommandButton:link {
+}
+
+A.CommandButton:visited {
+}
+
+A.CommandButton:hover {
+}
+
+A.CommandButton:active {
+}
+
+/* button style for standard HTML buttons */
+.StandardButton {
+}
+
+/* GENERIC */
+H1 {
+    font-family: 'Rokkitt', sans-serif;
+    font-weight: 400;
+    color: #256aa9;
+    margin-top: 0 !important;
+    font-size: 32px;
+}
+
+H2 {
+    font-family: "Rokkitt", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #256aa9;
+}
+
+    h2.pageTitle { /*Userd for secondary page section header*/
+        font-family: "Source Sans Pro";
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 15px;
+        color: #256aa9;
+        margin-top: 0 !important;
+        margin-bottom: 8px;
+    }
+
+H3 {
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+    color: #256aa9;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+h4, h5, h6 {
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+}
+
+    h1 .badge, h2 .badge, h3 .badge, h4 .badge, h5 .badge, h6 .badge {
+        vertical-align: middle;
+    }
+
+TFOOT, THEAD {
+}
+
+TH {
+}
+
+/*A:link {
+    color: #00539b;
+}
+
+A:visited {
+    color: #999999;
+}
+
+A:hover {
+    color: #999999;
+    text-decoration: underline;
+}
+
+A:active {
+}*/
+
+SMALL {
+}
+
+BIG {
+}
+
+BLOCKQUOTE, PRE {
+}
+
+
+
+ul ul, ul ol, ol ol, ol ul {
+    margin-left: 0;
+}
+
+.main-content ul {
+    padding-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.main-content li {
+    margin-bottom: 4px;
+}
+
+.main-content ul li {
+    list-style-type: disc;
+}
+
+.main-content ul ul li {
+    list-style-type: square;
+}
+
+.main-content ul ul ul li {
+    list-style-type: circle;
+}
+
+.main-content ol {
+    padding-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    list-style-type: decimal;
+    list-style-position: outside;
+}
+
+OL LI {
+    list-style-type: decimal;
+}
+
+OL OL LI {
+    list-style-type: lower-alpha;
+}
+
+OL OL OL LI {
+}
+
+OL UL LI {
+}
+
+HR {
+}
+
+/* MODULE-SPECIFIC */
+/* text style for reading messages in Discussion */
+.Message {
+}
+
+/* style of item titles by Announcements and events */
+.ItemTitle {
+}
+
+/* Menu-Styles */
+/* Module Title Menu */
+.ModuleTitle_MenuContainer {
+}
+
+.ModuleTitle_MenuBar {
+}
+
+.ModuleTitle_MenuItem {
+}
+
+.ModuleTitle_MenuIcon {
+}
+
+.ModuleTitle_SubMenu {
+}
+
+.ModuleTitle_MenuBreak {
+}
+
+.ModuleTitle_MenuItemSel {
+}
+
+.ModuleTitle_MenuArrow {
+}
+
+.ModuleTitle_RootMenuArrow {
+}
+
+/* Main Menu */
+
+.MainMenu_MenuContainer {
+}
+
+.MainMenu_MenuBar {
+}
+
+.MainMenu_MenuItem {
+}
+
+.MainMenu_MenuIcon {
+}
+
+.MainMenu_SubMenu {
+}
+
+.MainMenu_MenuBreak {
+}
+
+.MainMenu_MenuItemSel {
+}
+
+.MainMenu_MenuArrow {
+}
+
+.MainMenu_RootMenuArrow {
+}
+
+/* Login Styles */
+.LoginPanel {
+}
+
+.LoginTabGroup {
+}
+
+.LoginTab {
+}
+
+.LoginTabSelected {
+}
+
+.LoginTabHover {
+}
+
+.LoginContainerGroup {
+}
+
+.LoginContainer {
+}
+
+
+
+
+.imgLeft {
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+.imgRight {
+    float: right;
+    margin: 0 0 10px 20px;
+}
+
+    .imgLeft .caption, .imgRight .caption {
+        font-style: italic;
+        line-height: 40px;
+    }
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    margin: 0 !important;
+    overflow: hidden;
+    float: none !important;
+}
+
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+.banner {
+    background: url('/portals/0/Images/9_MoBapBabyDesktop_ClassesSupportClassMainPage_03.png') center center no-repeat transparent;
+    background-size: cover;
+    height: 120px;
+    width: 100%;
+}
+
+
+
+
+
+
+/**** Home - Latest from Mobap ***/
+.mobap-latest .bella-login {
+    width: 100%;
+    background: url('Images/Home/bella-background.png') no-repeat left center #e990bc;
+    text-align: center;
+    padding: 75px 0;
+    position: relative;
+}
+
+/*    .mobap-latest .bella-login::after {
+        content: "";
+        background: url('Images/Home/bella-logo.png') no-repeat left top transparent;
+        position: absolute;
+        height: 36px;
+        width: 73px;
+        left: 15px;
+        bottom: 15px;
+    }
+
+*/
+
+    .mobap-latest .bella-login a {
+        color: #e990bc;
+        font-family: 'Rokkitt', sans-serif;
+        font-size: 32px;
+        display: inline-block;
+        line-height: 32px;
+        padding: 10px 30px;
+        background-color: #fff;
+        text-decoration: none;
+    }
+
+        .mobap-latest .bella-login a:hover {
+            background-color: rgba(230, 230, 230,0.85) !important;
+        }
+
+/*end of latest*/
+
+/*Secondary page banner*/
+.secondary-banner {
+    height: 360px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+    .secondary-banner .banner-title {
+        font-family: 'SourceSansPro-Light', sans-serif;
+        padding: 4px 20px 12px 20px;
+        font-size: 49px;
+        line-height: 49px;
+        color: #FFFFFF;
+        display: inline-block;
+        margin-top: 150px;
+    }
+
+        .secondary-banner .banner-title.sage {
+            background-color: rgba(103, 154, 58, 0.7);
+        }
+
+        .secondary-banner .banner-title.rose {
+            background-color: rgba(138, 45, 79, 0.7);
+        }
+
+        .secondary-banner .banner-title.steel-blue {
+            background-color: rgba(43, 107, 136, 0.7);
+        }
+
+        .secondary-banner .banner-title.yellow {
+            background-color: rgba(119, 136, 2, 0.7);
+        }
+
+        .secondary-banner .banner-title.orchid {
+            background-color: rgba(165, 119, 177, 0.7);
+        }
+
+        .secondary-banner .banner-title.charcoal {
+            background-color: rgba(66, 66, 67, 0.7);
+        }
+
+        .secondary-banner .banner-title.main-blue {
+            background-color: rgba(57, 125, 155, 0.7);
+        }
+
+/* Secondary Page - Quick links*/
+ul.quick-links li {
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+ul.quick-links.sage li {
+    border-bottom: 1px solid #a1cb7c;
+}
+
+ul.quick-links.rose li {
+    border-bottom: 1px solid #e990bc;
+}
+
+ul.quick-links.steel-blue li {
+    border-bottom: 1px solid #6dadca;
+}
+
+ul.quick-links.yellow li {
+    border-bottom: 1px solid #c9d15b;
+}
+
+ul.quick-links.orchid li {
+    border-bottom: 1px solid #c495d0;
+}
+
+ul.quick-links.charcoal li {
+    border-bottom: 1px solid #808285;
+}
+
+ul.quick-links a {
+    text-align: center;
+    display: block;
+    padding: 25px 0;
+    height: 100%;
+}
+
+    ul.quick-links a:hover img {
+        opacity: 0.8;
+    }
+
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    /**** Home - Lasted from Mobap ***/
+    .mobap-latest .bella-login {
+        padding: 40px 0;
+    }
+
+        .mobap-latest .bella-login a {
+            color: #e990bc;
+            font-size: 18px;
+            line-height: 18px;
+            padding: 10px 30px;
+            background-color: #fff;
+            text-decoration: none;
+        }
+
+
+    .secondary-banner {
+        height: 220px;
+    }
+
+        .secondary-banner .banner-title {
+            margin-top: 80px;
+            padding: 0 20px 8px 20px;
+            font-size: 38px;
+        }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    /**** Home - Lasted from Mobap ***/
+    .mobap-latest .bella-login {
+        padding: 30px;
+    }
+
+        .mobap-latest .bella-login a {
+            color: #e990bc;
+            font-size: 28px;
+            line-height: 28px;
+            padding: 15px 20px;
+            background-color: #fff;
+            text-decoration: none;
+        }
+    /*end of Latest*/
+
+    .secondary-banner {
+        height: 175px;
+    }
+
+        .secondary-banner .banner-title {
+            margin-top: 65px;
+            padding: 0px 8px;
+            font-size: 28px;
+        }
+
+    .mobap-latest .bella-login::after {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    /**** Home - Lasted from Mobap ***/
+    .mobap-latest .row {
+        min-height: 250px;
+    }
+
+    .mobap-latest .text-col {
+        padding: 15px;
+    }
+
+        .mobap-latest .text-col .link-button a {
+            padding: 10px;
+        }
+
+        .mobap-latest .text-col .title {
+            font-size: 20px;
+            line-height: 24px;
+        }
+}
+
+/* for boxed text James-added 08152016*/
+.more {
+     padding: 10px;
+	 background-color:#ebf5fa;
+}
+
+/* for links to class registration James - added 04/12/2018 */
+.link-button  {
+    background-color: #7fc0dd;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:10px;
+}
+
+.link-button a {
+    text-decoration: none;
+    color: white;
+}
+.form-group-baby-bluenotes-captcha {
+  width: 100%;
+}
+ 
+@media screen and (min-width: 768px) {
+  .form-group-baby-bluenotes-captcha {
+    width: 50%;
+    margin-top: 40px;
+  }
+  
+  .baby-bluenotes-captcha {
+    width: 100%;
+  }
+
+  .control-label.baby-bluenotes-captcha {
+    margin-top: 30px;
+  }
+}
+
+/* testimonials */
+.BabyPic {width:325px; height:325px;}
+
+hr {clear:both;}
+
+

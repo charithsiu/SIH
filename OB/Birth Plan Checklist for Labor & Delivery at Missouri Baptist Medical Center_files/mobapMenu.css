@@ -1,0 +1,169 @@
+.topNav ul.megamenu {
+    margin: 22px 0 0 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+    list-style: none;
+    z-index: 11;
+}
+
+    .topNav ul.megamenu, ul.megamenu li {
+        list-style-type: none;
+    }
+
+        .topNav ul.megamenu li {
+            float: left;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            /*height: 56px;*/
+            cursor: pointer;
+            z-index: 11;
+        }
+
+            .topNav ul.megamenu li.separator {
+                margin-left: 25px;
+                margin-right: 25px;
+                height: 14px;
+            }
+
+
+        .topNav ul.megamenu ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        .topNav ul.megamenu li a {
+            float: left;
+            text-decoration: none;
+        }
+
+        .topNav ul.megamenu li .sub {
+            position: absolute;
+            left: 0;
+            float: left;
+            display: none;
+            z-index: 11;
+            padding-bottom: 10px;
+        }
+
+        .topNav ul.megamenu li .row {
+            clear: both;
+            float: left;
+            width: 100%; /*margin-bottom: 10px;*/
+        }
+
+        .topNav ul.megamenu li .sub ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            float: left;
+        }
+
+        .topNav ul.megamenu .sub ul li {
+            /*width: 180px;*/
+            /*height: 41px;*/
+            white-space: normal;
+            font-weight: normal;
+            padding-left: 10px;
+            list-style-type: none;
+            text-align: left;
+            width: 100%;
+        }
+
+        .topNav ul.megamenu .sub .row .col:first-child {
+            border-right: 1px solid #747678;
+        }
+
+        .topNav ul.megamenu .sub ul li a {
+            float: left;
+            text-indent: 0; /*--Reset text indent--*/
+            display: block;
+            text-decoration: none;
+            color: #747678;
+            padding: 5px 0;
+            margin: 0;
+            white-space: normal;
+            font-size: 12px;
+            line-height: 14px;
+        }
+
+            .topNav ul.megamenu .sub ul li a:hover {
+                color: #68bdd6 !important;
+            }
+
+        .topNav ul.megamenu .sub .last ul li {
+            border: 0;
+        }
+
+        /* --Modify for styling --*/
+        .topNav ul.megamenu li.level0 div.childIndicator {
+            width: 100%;
+            background-color: #FFFFFF;
+            height: 33px;
+            position: absolute;
+            bottom: -36px;
+            padding: 0 5px;
+            display: none;
+        }
+
+            .topNav ul.megamenu li.level0 div.childIndicator .line {
+                height: 2px;
+                width: 92%;
+                top: 5px;
+                background: #7fc0dd;
+                position: absolute;
+                left: 4%;
+                padding: 0 10px;
+            }
+
+        .topNav ul.megamenu li.level0 a {
+            color: #FFFFFF;
+            text-align: left;
+            list-style: none outside none;
+            white-space: nowrap;
+            float: left;
+
+        }
+
+        .topNav ul.megamenu li a.level0:hover, .megahover, ul.megamenu .current {
+            /*background-color: #2D4A74;*/
+        }
+
+.topNav div.sub {
+    padding-top: 8px;
+    padding-right: 20px;
+    background-color: #FFF;
+}
+
+
+/*ul.megamenu .sub ul li h2 a {
+    color: #FFFFFF;
+}*/
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .topNav ul.megamenu li.separator {
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .topNav ul.megamenu li.separator {
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+}
+
+/*
+@media (min-width: 1200px) {
+    .topNav ul.megamenu li.separator {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+    */

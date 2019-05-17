@@ -1,0 +1,150 @@
+function splitSubMenu(columns) {
+    jQuery(".topNav div.sub").each(function (i) {
+        var items = jQuery(this).find('.tempUL .subheader');//get all child items
+        var itemsPerCol = Math.ceil(items.length / columns);//number of items per column
+        for (var i = 0; i < items.length; i += itemsPerCol) {//
+            var slice = items.slice(i, i + itemsPerCol);
+            slice.wrapAll("<div class=\"col col-md-6 col-lg-6\"><ul></ul></div>");
+        }
+        jQuery(this).find(".col").unwrap();
+        jQuery(this).find(".col").wrapAll("<div class=\"row\"></div>");
+
+    });
+
+}
+
+jQuery.fn.isChildOf = function (b) {
+    return (this.parents(b).length > 0);
+};
+
+jQuery(document).ready(function () {
+
+    //disable external links
+    /*
+    jQuery("ul.megamenu li.subheader a").each(function (i) {
+        if (newWindowPages.indexOf($(this).text()) >= 0) {
+            $(this).attr("onclick", "return false;");
+        }
+    });*/
+
+
+    //used when user click on sub menu item (not link)
+    jQuery("ul.megamenu li.subheader").each(function (i) {
+        $(this).click(function () {
+            var $link = $(this).find("a");
+            var itemUrl = $link.attr('href');
+            var itemText = $link.text();
+            if (newWindowPages.indexOf(itemText) >= 0) {//open url in new window, "newWindowPages" is declared in mbmc.js
+                window.open(itemUrl, '_blank');
+            } else {
+                window.location = itemUrl;
+            }
+        });
+    });
+
+
+    //Calculate height of top level menu and set top style for menu placement
+    //jQuery('ul.megamenu li .sub').css('top', jQuery('ul.megamenu > li').height());
+    jQuery('ul.megamenu li .sub').css('top', 55);
+
+    // set hover class to parent item
+    jQuery('li.level0 div').mouseover(function () {
+        jQuery(this).closest('li.level0').find('a.level0').addClass("megahover")
+        /* jQuery(this).closest('li.level0').addClass("megahover")*/
+    }).mouseout(function () {
+        jQuery(this).closest('li.level0').find('a.level0').removeClass("megahover")
+        /* jQuery(this).closest('li.level0').removeClass("megahover")*/
+    });
+
+    //set position child indicator
+    /*
+    jQuery("ul.megamenu li.level0").each(function (i) {
+        var height = jQuery(this).height();
+        var width = jQuery(this).width();
+        var $Indicator = jQuery(this).find("div.childIndicator");
+        if ($Indicator.height() != null) {
+            var indicatorHeight = $Indicator.height();
+            var indicatorWidth = $Indicator.width() + 20;
+            var indicatorLeft = width / 2 - indicatorWidth / 2;
+            $Indicator.css({ 'left': '-10px', 'width': indicatorWidth });
+        }
+    });*/
+
+    function megaHoverOver() {
+        jQuery(this).find(".sub").stop().fadeTo('slow', 0.9).show();
+        jQuery(this).find(".childIndicator").stop().fadeTo('slow', 1).show();
+
+        //Calculate width of all ul's
+        (function (jQuery) {
+            jQuery.fn.calcSubWidth = function () {
+                rowWidth = 0;
+                //Calculate row
+                $(this).find("ul").each(function () {
+                    rowWidth += $(this).width();
+                });
+            };
+        })(jQuery);
+
+        if (jQuery(this).find(".row").length > 0) { //If row exists...
+            var biggestRow = 0;
+            //Calculate each row
+            jQuery(this).find(".row").each(function () {
+                jQuery(this).calcSubWidth();
+                //Find biggest row
+                if (rowWidth > biggestRow) {
+                    biggestRow = rowWidth;
+                }
+            });
+            //Set width
+            //jQuery(this).find(".sub").css({ 'width': biggestRow });
+            jQuery(this).find(".sub").css({ 'width': '500px' });
+            jQuery(this).find(".row:last").css({ 'margin': '0' });
+            biggestRow = 500;
+
+            //set sub menu position
+            var rootItemX = $(this).offset().left;
+            var rootItemWidth = $(this).width();
+            var $container = $(".desktop-header .row2 .container");
+            //if (rootItemX + biggestRow > $(window).width()) {
+            if (rootItemX + biggestRow > $container.width() + $container.offset().left) {
+                //if ($(this).isChildOf(".rightTopNav")) {               
+                var subLeftPos = rootItemWidth - biggestRow; //30 is padding right of submenu
+                $(this).find(".sub").css({ 'left': subLeftPos });
+            }
+            else {
+                $(this).find(".sub").css({ 'left': 0 });
+            }
+        } else { //If row does not exist...
+
+            jQuery(this).calcSubWidth();
+            //Set Width
+            jQuery(this).find(".sub").css({ 'width': rowWidth });
+
+        }
+    }
+
+    function megaHoverOut() {
+        jQuery(this).find(".sub").stop().fadeTo('slow', 0, function () {
+            jQuery(this).hide();
+        });
+        jQuery(this).find(".childIndicator").stop().fadeTo('slow', 0, function () {
+            jQuery(this).hide();
+        });
+    }
+
+
+    var config = {
+        sensitivity: 2, // number = sensitivity threshold (must be 1 or higher)    
+        interval: 100, // number = milliseconds for onMouseOver polling interval    
+        over: megaHoverOver, // function = onMouseOver callback (REQUIRED)    
+        timeout: 100, // number = milliseconds delay before onMouseOut    
+        out: megaHoverOut // function = onMouseOut callback (REQUIRED)    
+    };
+
+    jQuery(".topNav ul.megamenu li .sub").css({ 'opacity': '0' });
+    jQuery(".topNav ul.megamenu li.level0 div.childIndicator").css({ 'opacity': '0' });
+    jQuery(".topNav ul.megamenu li").hoverIntent(config);
+
+});
+
+
